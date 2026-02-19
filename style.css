@@ -29,6 +29,10 @@ width: 20%;
 vertical-align: middle;
 }
 
+.enseigne h1 {
+font-family: "Georgia", "Times New Roman", serif;
+}
+
 nav {
 display: inline-block;
 width: 55%;
