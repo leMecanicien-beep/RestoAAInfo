@@ -140,3 +140,32 @@ nav ul li a:hover {
 .carte:hover .deroulant {
   display: block;
 }
+
+/*on refait exactement les mêmes lignes de code pour le menu déroulant de A PROPOS*/
+
+.propos {
+    position: relative;
+}
+
+.deroulant2 {
+    display: none;
+    position: absolute;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    width: 180px;
+    border: 1px solid black;
+}
+
+.deroulant2 li {
+    padding: 8px 8px;
+}
+
+.deroulant2 li a {
+    color: black;
+    display: block;
+}
+
+
+.propos:hover .deroulant2 {
+    display: block;
+}
