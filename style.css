@@ -1,21 +1,21 @@
 
 /*ce bloc nous sert à avoir une mise en page stable pour pas qu'un imprévu change tout*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #d9d9d9;
+font-family: Arial, sans-serif;
+background-color: #d9d9d9;
 }
 
 
 
 header {
-    background-color: #b98acb;
-    padding: 20px 40px;
+background-color: #b98acb;
+padding: 20px 40px;
 }
 
 .cadre {
@@ -24,9 +24,9 @@ width: 100%;
 
 
 .enseigne {
-    display: inline-block; /*ranger onglets principaux pour aligner comme un tableau*/
-    width: 20%;
-    vertical-align: middle;
+display: inline-block; /*ranger onglets principaux pour aligner comme un tableau*/
+width: 20%;
+vertical-align: middle;
 }
 
 nav {
@@ -37,19 +37,19 @@ vertical-align: middle;
 }
 
 nav ul {
-    list-style: none;
+list-style: none;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
-    font-weight:bold;
+display: inline-block;
+margin: 0 15px;
+font-weight:bold;
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+text-decoration: none;
+font-weight: bold;
+color: black;
 }
 
 nav ul li a:hover {
@@ -65,16 +65,16 @@ vertical-align: middle;
 
 
 .barre input {
-    padding: 5px;
+padding: 5px;
 }
 
 
 
 .presentation {
-    background-color: white;
-    width: 85%;
-    margin: 40px auto; /*centrer le texte*/
-    padding: 30px;
+background-color: white;
+width: 85%;
+margin: 40px auto; /*centrer le texte*/
+padding: 30px;
 }
 
 .image {
@@ -84,19 +84,19 @@ vertical-align: top;
 }
 
 .image img {
-    width: 100%; /*image peut s'adapter à la largeur restante*/
-    border-radius: 8px;
+width: 100%; /*image peut s'adapter à la largeur restante*/
+border-radius: 8px;
 }
 
 
 .texte {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    margin-left: 4%;
+display: inline-block;
+width: 50%;
+vertical-align: top;
+margin-left: 4%;
 }
 
 .texte p {
-    margin-bottom: 15px;
-    line-height: 1.6
+margin-bottom: 15px;
+line-height: 1.6
 }
