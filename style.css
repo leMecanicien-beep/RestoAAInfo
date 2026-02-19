@@ -1,114 +1,131 @@
 /*ce bloc nous sert à avoir une mise en page stable pour pas qu'un imprévu change tout, en gros tout est mis à zéro et la largeur est définie par convention au cas où le style plante*/
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-font-family: Arial, sans-serif;
-background-color: #d9d9d9;
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
 }
 
 
 
 header {
-background-color: #b98acb;
-padding: 20px 40px;
+  background-color: #b98acb;
+  padding: 20px 40px;
 }
 
 .cadre {
-width: 100%;
+  width: 100%;
 }
 
 
 .enseigne {
-display: inline-block; /*ranger onglets principaux pour aligner comme un tableau*/
-width: 20%;
-vertical-align: middle;
+  display: inline-block; /*ranger onglets principaux pour aligner comme un tableau*/
+  width: 20%;
+  vertical-align: middle;
 }
 
 .enseigne h1 {
-font-family: "Great Vibes", cursive;
-text-align: center;
-font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-size: 40px;
 }
 
 nav {
-display: inline-block;
-width: 55%;
-text-align: center;
-vertical-align: middle;
+  display: inline-block;
+  width: 55%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 nav ul {
-list-style: none;
+  list-style: none;
 }
 
 nav ul li {
-display: inline-block;
-font-family: "Georgia", "Times New Roman", serif;
-margin: 0 25px;
-font-weight:bold;
+  display: inline-block;
+  font-family: "Georgia", "Times New Roman", serif;
+  margin: 0 25px;
+  font-weight:bold;
 }
 
 nav ul li a {
-text-decoration: none;
-font-weight: bold;
-color: black;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 
 nav ul li a:hover {
-color:gold;
+  color:gold;
 }
 
 .barre {
-display: inline-block;
-width: 20%;
-text-align: right;
-vertical-align: middle;
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  vertical-align: middle;
 }
 
 
 .barre input {
-padding: 6px 10px;
-border-radius: 20px;
-background-color: white;
-border: 2px solid white;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid white;
 }
 
 
 
 .presentation {
-background-color: white;
-border-radius: 40px;
-width: 95%;
-margin: 40px auto; /*centrer le texte*/
-padding: 30px;
+  background-color: white;
+  border-radius: 40px;
+  width: 95%;
+  margin: 40px auto; /*centrer le texte*/
+  padding: 30px;
 }
 
 .image {
-display: inline-block;
-width: 45%;
-vertical-align: top;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
 }
 
 .image img {
-width: 100%; /*image peut s'adapter à la largeur restante*/
-border-radius: 8px;
+  width: 100%; /*image peut s'adapter à la largeur restante*/
+  border-radius: 8px;
 }
 
 
 .texte {
-display: inline-block;
-width: 50%;
-vertical-align: top;
-margin-left: 4%;
-padding-top: 30px;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-left: 4%;
+  padding-top: 30px;
 }
 
 .texte p {
-margin-bottom: 15px;
-line-height: 1.6;
-text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.carte {
+  position: relative;
+}
+
+.deroulant {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  width: 180px;
+  border: 1px solid black;
+}
+
+.carte:hover .deroulant {
+  display: block;
 }
