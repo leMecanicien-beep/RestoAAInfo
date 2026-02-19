@@ -1,5 +1,4 @@
-
-/*ce bloc nous sert à avoir une mise en page stable pour pas qu'un imprévu change tout*/
+/*ce bloc nous sert à avoir une mise en page stable pour pas qu'un imprévu change tout, en gros tout est mis à zéro et la largeur est définie par convention au cas où le style plante*/
 * {
 margin: 0;
 padding: 0;
