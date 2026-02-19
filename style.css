@@ -48,6 +48,7 @@ list-style: none;
 
 nav ul li {
 display: inline-block;
+font-family: "Georgia", "Times New Roman", serif;
 margin: 0 15px;
 font-weight:bold;
 }
