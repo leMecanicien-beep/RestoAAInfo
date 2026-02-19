@@ -81,6 +81,7 @@ border: 2px solid white;
 
 .presentation {
 background-color: white;
+border-radius: 40px;
 width: 95%;
 margin: 40px auto; /*centrer le texte*/
 padding: 30px;
