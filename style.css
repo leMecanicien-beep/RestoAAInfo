@@ -117,6 +117,7 @@ nav ul li a:hover {
   position: relative;
 }
 
+
 .deroulant {
   display: none;
   position: absolute;
@@ -125,6 +126,16 @@ nav ul li a:hover {
   width: 180px;
   border: 1px solid black;
 }
+
+.deroulant li {
+  padding: 8px 15px;
+}
+
+.deroulant li a {
+  color: black;
+  display: block;
+}
+
 
 .carte:hover .deroulant {
   display: block;
