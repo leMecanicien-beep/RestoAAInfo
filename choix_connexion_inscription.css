@@ -29,6 +29,9 @@ body {
 h1, h2 {
     margin-bottom: 20px;
     color: #111;
+}
+
+h2 {
     font-family: "Georgia", "Times New Roman", serif;
 }
 
