@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Fond blanc */
+
 body {
     height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body {
     background-color: white;
 }
 
-/* Carte centrale */
+
 .card {
     background: white;
     padding: 40px;
@@ -25,19 +25,19 @@ body {
     border: 2px solid #7b2cbf; /* violet */
 }
 
-/* Titres */
+
 h1, h2 {
     margin-bottom: 20px;
     color: #111;
 }
 
-/* Paragraphes */
+
 p {
     margin-bottom: 15px;
     color: #333;
 }
 
-/* Inputs */
+
 input {
     width: 100%;
     padding: 12px;
@@ -51,7 +51,7 @@ input:focus {
     border: 1px solid #7b2cbf;
 }
 
-/* Boutons */
+
 .btn {
     display: inline-block;
     padding: 12px 20px;
@@ -68,7 +68,7 @@ input:focus {
     background-color: #5a189a;
 }
 
-/* Bouton secondaire */
+
 .btn-secondary {
     background-color: #9d4edd;
 }
