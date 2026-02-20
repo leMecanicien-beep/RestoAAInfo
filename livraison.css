@@ -5,50 +5,51 @@
     font-family: Arial, sans-serif;
 }
 
-/* Adapté smartphone */
 body {
-    background-color: white;
-    padding: 20px;
-}
-
-/* Conteneur */
-.livraison-container {
-    max-width: 500px;
-    margin: auto;
-    border: 2px solid #7b2cbf;
-    border-radius: 10px;
-    padding: 20px;
+    background: #f4f0fa;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Titre */
 h2 {
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
 }
 
-/* Infos */
-.info p {
-    margin-bottom: 12px;
-    font-size: 16px;
+/* Carte livraison */
+.livraison {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Texte */
+.livraison p {
+    font-size: 15px;
+    color: #444;
 }
 
 /* Boutons */
-.buttons {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 .btn {
-    text-align: center;
+    margin-top: 10px;
     padding: 12px;
+    text-align: center;
     background-color: #7b2cbf;
     color: white;
     text-decoration: none;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
@@ -57,4 +58,8 @@ h2 {
 
 .done {
     background-color: green;
+}
+
+.done:hover {
+    background-color: darkgreen;
 }
