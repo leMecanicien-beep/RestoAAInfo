@@ -234,3 +234,10 @@ nav ul li a:hover {
   width: 25px;
   height: 25px;
 }
+
+.tahia {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+}
