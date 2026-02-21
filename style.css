@@ -209,3 +209,28 @@ nav ul li a:hover {
     padding-left: 20px;
 }
 
+.info {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.edit {
+    display: inline-flex;
+    align-items: center;
+    font-family: "Georgia", "Times New Roman", serif;
+    text-decoration: none;
+    background-color: #b98acb;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.edit:hover {
+    background-color: gold;
+}
+
+.crayon {
+  width: 25px;
+  height: 25px;
+}
