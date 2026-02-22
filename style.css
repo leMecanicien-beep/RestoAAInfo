@@ -241,3 +241,9 @@ nav ul li a:hover {
   right: 0;
   width: 120px;
 }
+
+.etoile {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
