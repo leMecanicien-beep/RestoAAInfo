@@ -18,7 +18,7 @@ h2 {
     color: #333;
 }
 
-.notation-box {
+.noter {
     background: white;
     width: 400px;
     padding: 30px;
@@ -27,44 +27,44 @@ h2 {
     text-align: center;
 }
 
-/* Texte */
-.notation-box p {
+
+.noter p {
     margin-bottom: 20px;
 }
 
-/* Etoiles */
-.stars {
+
+.etoile {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     margin-bottom: 20px;
 }
 
-/* On cache les boutons radio */
-.stars input {
+
+.etoile input {
     display: none;
 }
 
-/* Etoiles */
-.stars label {
+
+.etoile label {
     font-size: 40px;
     color: #ccc;
     cursor: pointer;
     transition: 0.3s;
 }
 
-/* Hover */
-.stars label:hover,
-.stars label:hover ~ label {
+
+.etoile label:hover,
+.etoile label:hover ~ label {
     color: gold;
 }
 
-/* Etoile sélectionnée */
-.stars input:checked ~ label {
+
+.etoile input:checked ~ label {
     color: gold;
 }
 
-/* Zone commentaire */
+
 textarea {
     width: 100%;
     height: 80px;
@@ -75,7 +75,7 @@ textarea {
     resize: none;
 }
 
-/* Bouton */
+
 button {
     width: 100%;
     padding: 12px;
