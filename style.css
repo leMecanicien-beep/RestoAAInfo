@@ -306,3 +306,7 @@ body main h2 {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
+
+.utilisateur h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+}
