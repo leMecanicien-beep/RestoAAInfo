@@ -144,90 +144,90 @@ nav ul li a:hover {
 /*on refait exactement les mêmes lignes de code pour le menu déroulant de A PROPOS*/
 
 .propos {
-    position: relative;
+  position: relative;
 }
 
 .deroulant2 {
-    display: none;
-    position: absolute;
-    background-color: #f8f8f8;
-    padding: 10px 0;
-    width: 180px;
-    border: 1px solid black;
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  width: 180px;
+  border: 1px solid black;
 }
 
 .deroulant2 li {
-    padding: 8px 8px;
+  padding: 8px 8px;
 }
 
 .deroulant2 li a {
-    color: black;
-    display: block;
+  color: black;
+  display: block;
 }
 
 
 .propos:hover .deroulant2 {
-    display: block;
+  display: block;
 }
 
 .profil {
-    background-color: white;
-    width: 85%;
-    margin: 50px auto;
-    padding: 40px;
+  background-color: white;
+  width: 85%;
+  margin: 50px auto;
+  padding: 40px;
 }
 
 .profil h2 {
-    margin-bottom: 30px;
-    font-family: "Georgia", "Times New Roman", serif;
+  margin-bottom: 30px;
+  font-family: "Georgia", "Times New Roman", serif;
 }
 
 
 .profil2 {
-    text-align: center;
+  text-align: center;
 }
 
 
 .carteprofil {
-    display: inline-block;
-    width: 28%;
-    vertical-align: top;
-    margin: 0 2%;
-    padding: 20px;
-    border: 2px solid #b98acb;
-    border-radius: 8px;
-    text-align: left;
-    background-color: #f9f9f9;
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  margin: 0 2%;
+  padding: 20px;
+  border: 2px solid #b98acb;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #f9f9f9;
 }
 
 .carteprofil h3 {
-    margin-bottom: 15px;
-    font-family: "Georgia", "Times New Roman", serif;
+  margin-bottom: 15px;
+  font-family: "Georgia", "Times New Roman", serif;
 }
 
 .carteprofil ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .info {
-    margin-top: 15px;
-    text-align: right;
+  margin-top: 15px;
+  text-align: right;
 }
 
 .edit {
-    display: inline-flex;
-    align-items: center;
-    font-family: "Georgia", "Times New Roman", serif;
-    text-decoration: none;
-    background-color: #b98acb;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Georgia", "Times New Roman", serif;
+  text-decoration: none;
+  background-color: #b98acb;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
 .edit:hover {
-    background-color: gold;
+  background-color: gold;
 }
 
 .crayon {
@@ -243,51 +243,66 @@ nav ul li a:hover {
 }
 
 .etoile {
-    width: 20px;
-    vertical-align: middle;
-    margin-right: 8px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
 .recherche {
-    text-align: center;
-    margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .recherche input {
-    padding: 8px;
-    width: 250px;
+  padding: 8px;
+  width: 250px;
 }
 
 
 .filtres {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .filtres button {
-    padding: 8px 12px;
-    margin: 5px;
-    cursor: pointer;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 
 .plats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .aliment {
-    background-color: white;
-    padding: 15px;
-    border: 1px solid #ddd;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
 }
 
 .aliment h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 body main h2 {
-font-family: "Great Vibes";
+  font-family: "Great Vibes";
+}
+
+.utilisateurs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.utilisateur {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
